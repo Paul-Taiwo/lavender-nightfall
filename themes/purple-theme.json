@@ -251,6 +251,18 @@
   },
   "tokenColors": [
     {
+      "scope": "comment.block.css",
+      "settings": {
+        "foreground": "#746e6e"
+      }
+    },
+    {
+      "scope": "comment.block.js",
+      "settings": {
+        "foreground": "#746e6e"
+      }
+    },
+    {
       "scope": "comment.line.double-slash.js",
       "settings": {
         "foreground": "#746e6e"
@@ -293,9 +305,21 @@
       }
     },
     {
+      "scope": "constant.numeric.css",
+      "settings": {
+        "foreground": "#896aae"
+      }
+    },
+    {
       "scope": "constant.numeric.json",
       "settings": {
         "foreground": "#6d398b"
+      }
+    },
+    {
+      "scope": "constant.other.color.rgb-value.hex.css",
+      "settings": {
+        "foreground": "#896aae"
       }
     },
     {
@@ -317,6 +341,18 @@
       }
     },
     {
+      "scope": "entity.name.tag.css",
+      "settings": {
+        "foreground": "#f59295"
+      }
+    },
+    {
+      "scope": "entity.name.tag.wildcard.css",
+      "settings": {
+        "foreground": "#f59295"
+      }
+    },
+    {
       "scope": "entity.name.type.js",
       "settings": {
         "foreground": "#fec758"
@@ -329,19 +365,61 @@
       }
     },
     {
+      "scope": "entity.other.attribute-name.css",
+      "settings": {
+        "foreground": "#ffb454ff"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.id.css",
+      "settings": {
+        "foreground": "#9df39fff"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.class.css",
+      "settings": {
+        "foreground": "#9df39fff"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.pseudo-class.css",
+      "settings": {
+        "foreground": "#fec758"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.pseudo-element.css",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
+      "scope": "entity.other.keyframe-offset.percentage.css",
+      "settings": {
+        "foreground": "#fb9a4bff"
+      }
+    },
+    {
+      "scope": "keyword.control.at-rule.font-face.css",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.control.anchor.regexp",
       "settings": {
         "foreground": "#984ece"
       }
     },
     {
-      "scope": "keyword.operator.comparison.js",
+      "scope": "keyword.control.at-rule.keyframes.css",
       "settings": {
         "foreground": "#984ece"
       }
     },
     {
-      "scope": "keyword.operator.quantifier.regexp",
+      "scope": "keyword.control.at-rule.media.css",
       "settings": {
         "foreground": "#984ece"
       }
@@ -395,7 +473,43 @@
       }
     },
     {
-      "scope": "keyword.other.js",
+      "scope": "keyword.control.trycatch.js",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.assignment.compound.js",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.comparison.js",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.logical.and.media.css",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.logical.only.media.css",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.pattern.css",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
+      "scope": "keyword.operator.quantifier.regexp",
       "settings": {
         "foreground": "#984ece"
       }
@@ -431,9 +545,57 @@
       }
     },
     {
-      "scope": "keyword.control.trycatch.js",
+      "scope": "keyword.other.js",
       "settings": {
         "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.other.important.css",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
+      "scope": "keyword.other.unit.deg.css",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
+      "scope": "keyword.other.unit.percentage.css",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
+      "scope": "keyword.other.unit.px.css",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
+      "scope": "keyword.operator.arithmetic.js",
+      "settings": {
+        "foreground": "#f44747ff"
+      }
+    },
+    {
+      "scope": "keyword.operator.expression.typeof.js",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.increment.js",
+      "settings": {
+        "foreground": "#f44747ff"
+      }
+    },
+    {
+      "scope": "keyword.operator.ternary.js",
+      "settings": {
+        "foreground": "#f44747ff"
       }
     },
     {
@@ -479,9 +641,39 @@
       }
     },
     {
+      "scope": "storage.type.function.js",
+      "settings": {
+        "foreground": "#ff6262ff"
+      }
+    },
+    {
       "scope": "storage.type.function.arrow.js",
       "settings": {
         "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "string.unquoted.attribute-value.css",
+      "settings": {
+        "foreground": "#cd8d8dff"
+      }
+    },
+    {
+      "scope": "string.quoted.double.css",
+      "settings": {
+        "foreground": "#cd8d8dff"
+      }
+    },
+    {
+      "scope": "string.quoted.double.js",
+      "settings": {
+        "foreground": "#f59295ff"
+      }
+    },
+    {
+      "scope": "string.quoted.single.css",
+      "settings": {
+        "foreground": "#cd8d8dff"
       }
     },
     {
@@ -497,6 +689,18 @@
       }
     },
     {
+      "scope": "support.constant.font-name.css",
+      "settings": {
+        "foreground": "#f59295ff"
+      }
+    },
+    {
+      "scope": "support.constant.media.css",
+      "settings": {
+        "foreground": "#f59295ff"
+      }
+    },
+    {
       "scope": "support.class.builtin.js",
       "settings": {
         "foreground": "#5fc05f"
@@ -506,6 +710,42 @@
       "scope": "support.class.console.js",
       "settings": {
         "foreground": "#5fc05f"
+      }
+    },
+    {
+      "scope": "support.constant.color.w3c-standard-color-name.css",
+      "settings": {
+        "foreground": "#cd8d8dff"
+      }
+    },
+    {
+      "scope": "support.constant.property-value.css",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
+      "scope": "support.function.misc.css",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
+      "scope": "support.function.url.css",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
+      "scope": "support.variable.dom.js",
+      "settings": {
+        "foreground": "#5fc05fff"
+      }
+    },
+    {
+      "scope": "support.variable.object.node.js",
+      "settings": {
+        "foreground": "#5fc05fff"
       }
     },
     {
@@ -533,15 +773,33 @@
       }
     },
     {
+      "scope": "support.function.gradient.css",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
       "scope": "support.function.promise.js",
       "settings": {
         "foreground": "#ffb454"
       }
     },
     {
+      "scope": "support.function.transform.css",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
       "scope": "support.type.property-name",
       "settings": {
         "foreground": "#e9a238"
+      }
+    },
+    {
+      "scope": "support.type.vendored.property-name.css",
+      "settings": {
+        "foreground": "#5fc05f"
       }
     },
     {
@@ -584,6 +842,12 @@
       "scope": "token.warn-token",
       "settings": {
         "foreground": "#cd9731"
+      }
+    },
+    {
+      "scope": "variable.language.this.js",
+      "settings": {
+        "foreground": "#cc9c00ff"
       }
     },
     {
@@ -637,6 +901,13 @@
       "scope": "variable.parameter.js",
       "settings": {
         "foreground": "#cc9c00",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "variable.parameter.keyframe-list.css",
+      "settings": {
+        "foreground": "#fb9a4bff",
         "fontStyle": "italic"
       }
     },
