@@ -1,0 +1,26 @@
+{
+  "name": "sweet-purple-theme",
+  "publisher": "Paul Taiwo Adedokun",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "purple-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-theme.json"
+      }
+    ]
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Taiwo Adedokun",
+  "license": "MIT",
+  "description": ""
+}
