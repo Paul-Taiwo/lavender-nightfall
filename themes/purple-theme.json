@@ -257,6 +257,12 @@
       }
     },
     {
+      "scope": "comment.block.documentation.js",
+      "settings": {
+        "foreground": "#746e6e"
+      }
+    },
+    {
       "scope": "comment.block.documentation.phpdoc.php",
       "settings": {
         "foreground": "#746e6e"
@@ -299,6 +305,12 @@
       }
     },
     {
+      "scope": "comment.line.number-sign.php",
+      "settings": {
+        "foreground": "#746e6e"
+      }
+    },
+    {
       "scope": "comment.line.scss",
       "settings": {
         "foreground": "#746e6e"
@@ -306,6 +318,12 @@
     },
     {
       "scope": "constant.character.entity.named.copy.html",
+      "settings": {
+        "foreground": "#2671b2"
+      }
+    },
+    {
+      "scope": "constant.character.entity.named.nbsp.html",
       "settings": {
         "foreground": "#2671b2"
       }
@@ -371,6 +389,12 @@
       }
     },
     {
+      "scope": "constant.numeric.octal.php",
+      "settings": {
+        "foreground": "#896aae"
+      }
+    },
+    {
       "scope": "constant.numeric.css",
       "settings": {
         "foreground": "#896aae"
@@ -380,6 +404,12 @@
       "scope": "constant.numeric.json",
       "settings": {
         "foreground": "#6d398b"
+      }
+    },
+    {
+      "scope": "constant.other.class.php",
+      "settings": {
+        "foreground": "#997429ff"
       }
     },
     {
@@ -612,6 +642,12 @@
       }
     },
     {
+      "scope": "keyword.control.at-rule.keyframes.scss",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.control.at-rule.media.css",
       "settings": {
         "foreground": "#984ece"
@@ -636,6 +672,12 @@
       }
     },
     {
+      "scope": "keyword.control.content.scss",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.control.continue.js",
       "settings": {
         "foreground": "#984ece"
@@ -648,6 +690,12 @@
       }
     },
     {
+      "scope": "keyword.control.die.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.control.else.php",
       "settings": {
         "foreground": "#984ece"
@@ -655,6 +703,24 @@
     },
     {
       "scope": "keyword.control.elseif.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.endforeach.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.endif.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.exit.php",
       "settings": {
         "foreground": "#984ece"
       }
@@ -673,6 +739,12 @@
     },
     {
       "scope": "keyword.control.default.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.endswitch.php",
       "settings": {
         "foreground": "#984ece"
       }
@@ -697,6 +769,12 @@
     },
     {
       "scope": "keyword.control.if.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.if.scss",
       "settings": {
         "foreground": "#984ece"
       }
@@ -804,6 +882,12 @@
       }
     },
     {
+      "scope": "keyword.operator.expression.delete.js",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.expression.in.js",
       "settings": {
         "foreground": "#984ece"
@@ -825,6 +909,12 @@
       "scope": "keyword.operator.increment.js",
       "settings": {
         "foreground": "#f44747ff"
+      }
+    },
+    {
+      "scope": "keyword.operator.increment-decrement.php",
+      "settings": {
+        "foreground": "#984ece"
       }
     },
     {
@@ -876,6 +966,12 @@
       }
     },
     {
+      "scope": "keyword.operator.regexp.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.relational.js",
       "settings": {
         "foreground": "#984ece"
@@ -885,6 +981,12 @@
       "scope": "keyword.operator.scss",
       "settings": {
         "foreground": "#f44747ff"
+      }
+    },
+    {
+      "scope": "keyword.operator.string.php",
+      "settings": {
+        "foreground": "#984ece"
       }
     },
     {
@@ -1034,6 +1136,12 @@
     },
     {
       "scope": "punctuation.section.embedded.begin.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "punctuation.section.embedded.end.php",
       "settings": {
         "foreground": "#984ece"
       }
@@ -1190,6 +1298,12 @@
       }
     },
     {
+      "scope": "string.regexp.double-quoted.php",
+      "settings": {
+        "foreground": "#cd8d8dff"
+      }
+    },
+    {
       "scope": "string.regexp.single-quoted.php",
       "settings": {
         "foreground": "#e9a238ff"
@@ -1286,10 +1400,28 @@
       }
     },
     {
+      "scope": "support.constant.core.php",
+      "settings": {
+        "foreground": "#f59295ff"
+      }
+    },
+    {
       "scope": "support.constant.property-value.css",
       "settings": {
         "foreground": "#fec758ff",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "support.constant.std.php",
+      "settings": {
+        "foreground": "#f59295ff"
+      }
+    },
+    {
+      "scope": "support.function.errorfunc.php",
+      "settings": {
+        "foreground": "#fec758ff"
       }
     },
     {
@@ -1329,6 +1461,12 @@
       }
     },
     {
+      "scope": "support.function.hash.php",
+      "settings": {
+        "foreground": "#fec758ff",
+      }
+    },
+    {
       "scope": "support.function.image.php",
       "settings": {
         "foreground": "#fec758ff",
@@ -1338,6 +1476,18 @@
       "scope": "support.function.info.php",
       "settings": {
         "foreground": "#fec758ff",
+      }
+    },
+    {
+      "scope": "support.function.json.php",
+      "settings": {
+        "foreground": "#fec758ff",
+      }
+    },
+    {
+      "scope": "support.function.magic.php",
+      "settings": {
+        "foreground": "#ff6262ff",
       }
     },
     {
@@ -1407,9 +1557,21 @@
       }
     },
     {
+      "scope": "support.function.xml.php",
+      "settings": {
+        "foreground": "#fec758ff",
+      }
+    },
+    {
       "scope": "support.function.zlib.php",
       "settings": {
         "foreground": "#fec758ff",
+      }
+    },
+    {
+      "scope": "support.other.namespace.php",
+      "settings": {
+        "foreground": "#9df39fff",
       }
     },
     {
@@ -1551,6 +1713,12 @@
       }
     },
     {
+      "scope": "variable.language.arguments.js",
+      "settings": {
+        "foreground": "#cc9c00ff"
+      }
+    },
+    {
       "scope": "variable.language.this.js",
       "settings": {
         "foreground": "#cc9c00ff"
@@ -1558,6 +1726,13 @@
     },
     {
       "scope": "variable.language.this.php",
+      "settings": {
+        "foreground": "#e9a238ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "variable.other.class.php",
       "settings": {
         "foreground": "#e9a238ff",
         "fontStyle": "italic"
@@ -1662,6 +1837,13 @@
       "scope": "variable.parameter.url.css",
       "settings": {
         "foreground": "#cd8d8dff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "variable.parameter.url.scss",
+      "settings": {
+        "foreground": "#e9a238ff",
         "fontStyle": "italic"
       }
     },
