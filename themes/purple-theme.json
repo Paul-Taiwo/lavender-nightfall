@@ -323,6 +323,12 @@
       }
     },
     {
+      "scope": "comment.line.shebang.ts",
+      "settings": {
+        "foreground": "#746e6e"
+      }
+    },
+    {
       "scope": "constant.character.entity.named.amp.html",
       "settings": {
         "foreground": "#2671b2"
@@ -437,6 +443,12 @@
       }
     },
     {
+      "scope": "constant.language.nan.js",
+      "settings": {
+        "foreground": "#997429ff"
+      }
+    },
+    {
       "scope": "constant.language.null.js",
       "settings": {
         "foreground": "#896aae"
@@ -462,6 +474,12 @@
     },
     {
       "scope": "constant.numeric.decimal.php",
+      "settings": {
+        "foreground": "#896aae"
+      }
+    },
+    {
+      "scope": "constant.numeric.hex.js",
       "settings": {
         "foreground": "#896aae"
       }
@@ -932,7 +950,8 @@
     {
       "scope": "keyword.operator.arithmetic.js",
       "settings": {
-        "foreground": "#f44747ff"
+        "foreground": "#984ece"
+        // "foreground": "#f44747ff"
       }
     },
     {
@@ -954,7 +973,25 @@
       }
     },
     {
+      "scope": "keyword.operator.assignment.compound.bitwise.js",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.assignment.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.bitwise.js",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.bitwise.shift.js",
       "settings": {
         "foreground": "#984ece"
       }
@@ -1176,6 +1213,12 @@
       }
     },
     {
+      "scope": "markup.inline.raw.string.markdown",
+      "settings": {
+        "foreground": "#fb9a4bff"
+      }
+    },
+    {
       "scope": "markup.underline.link.markdown",
       "settings": {
         "foreground": "#ffffff"
@@ -1210,7 +1253,7 @@
     {
       "scope": "meta.paragraph.markdown",
       "settings": {
-        "foreground": "#984ece"
+        // "foreground": "#984ece"
       }
     },
     {
@@ -1834,6 +1877,12 @@
       }
     },
     {
+      "scope": "support.function.process.js",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
       "scope": "support.function.promise.js",
       "settings": {
         "foreground": "#ffb454"
@@ -1940,6 +1989,13 @@
       }
     },
     {
+      "scope": "variable.other.constant.object.js",
+      "settings": {
+        "foreground": "#5fc05fff",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": "variable.other.constant.property.js",
       "settings": {
         "foreground": "#cc9c00",
@@ -1990,7 +2046,8 @@
     {
       "scope": "variable.other.property.js",
       "settings": {
-        "foreground": "#5fc05f"
+        "foreground": "#5fc05f",
+        "fontStyle": "italic"
       }
     },
     {
