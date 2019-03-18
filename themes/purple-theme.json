@@ -335,6 +335,12 @@
       }
     },
     {
+      "scope": "comment.line.number-sign.yaml",
+      "settings": {
+        "foreground": "#746e6e"
+      }
+    },
+    {
       "scope": "comment.line.scss",
       "settings": {
         "foreground": "#746e6e"
@@ -479,6 +485,12 @@
       }
     },
     {
+      "scope": "constant.language.boolean.yaml",
+      "settings": {
+        "foreground": "#896aae"
+      }
+    },
+    {
       "scope": "constant.language.nan.js",
       "settings": {
         "foreground": "#997429ff"
@@ -552,6 +564,12 @@
     },
     {
       "scope": "constant.numeric.hex.ts",
+      "settings": {
+        "foreground": "#896aae"
+      }
+    },
+    {
+      "scope": "constant.numeric.integer.yaml",
       "settings": {
         "foreground": "#896aae"
       }
@@ -1941,6 +1959,12 @@
       }
     },
     {
+      "scope": "string.quoted.double.yaml",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
       "scope": "string.quoted.single.css",
       "settings": {
         "foreground": "#cd8d8dff"
@@ -2020,6 +2044,12 @@
     },
     {
       "scope": "string.unquoted.attribute-value.scss",
+      "settings": {
+        "foreground": "#cd8d8dff"
+      }
+    },
+    {
+      "scope": "string.unquoted.plain.in.yaml",
       "settings": {
         "foreground": "#cd8d8dff"
       }
