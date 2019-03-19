@@ -859,6 +859,12 @@
       }
     },
     {
+      "scope": "entity.other.attribute-name.scss",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
       "scope": "entity.other.attribute-name.xml",
       "settings": {
         "foreground": "#e9a238ff"
@@ -1606,6 +1612,12 @@
       }
     },
     {
+      "scope": "keyword.other.unit.em.css",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
       "scope": "keyword.other.unit.percentage.css",
       "settings": {
         "foreground": "#f44747"
@@ -1918,7 +1930,7 @@
     {
       "scope": "string.quoted.double.js",
       "settings": {
-        "foreground": "#f59295ff"
+        "foreground": "#2671b2"
       }
     },
     {
@@ -2124,6 +2136,12 @@
       "scope": "support.constant.media.css",
       "settings": {
         "foreground": "#f59295ff"
+      }
+    },
+    {
+      "scope": "support.constant.vendored.property-value.css",
+      "settings": {
+        "foreground": "#cd8d8dff"
       }
     },
     {
