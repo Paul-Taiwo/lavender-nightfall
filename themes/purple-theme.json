@@ -1630,6 +1630,12 @@
       }
     },
     {
+      "scope": "keyword.other.unit.vh.css",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
       "scope": "markup.inline.raw.string.markdown",
       "settings": {
         "foreground": "#fb9a4bff"
