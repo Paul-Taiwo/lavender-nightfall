@@ -251,6 +251,12 @@
   },
   "tokenColors": [
     {
+      "scope": "comment.block.c",
+      "settings": {
+        "foreground": "#746e6e"
+      }
+    },
+    {
       "scope": "comment.block.css",
       "settings": {
         "foreground": "#746e6e"
@@ -306,6 +312,12 @@
     },
     {
       "scope": "comment.block.xml",
+      "settings": {
+        "foreground": "#746e6e"
+      }
+    },
+    {
+      "scope": "comment.line.double-slash.cpp",
       "settings": {
         "foreground": "#746e6e"
       }
@@ -449,6 +461,12 @@
       }
     },
     {
+      "scope": "constant.character.escape.c",
+      "settings": {
+        "foreground": "#ffe862ff"
+      }
+    },
+    {
       "scope": "constant.character.escape.js",
       "settings": {
         "foreground": "#fec758ff"
@@ -462,6 +480,12 @@
     },
     {
       "scope": "constant.language.batchfile",
+      "settings": {
+        "foreground": "#997429ff"
+      }
+    },
+    {
+      "scope": "constant.language.c",
       "settings": {
         "foreground": "#997429ff"
       }
@@ -563,6 +587,12 @@
       }
     },
     {
+      "scope": "constant.numeric.c",
+      "settings": {
+        "foreground": "#896aae"
+      }
+    },
+    {
       "scope": "constant.numeric.decimal.js",
       "settings": {
         "foreground": "#896aae"
@@ -659,6 +689,12 @@
       }
     },
     {
+      "scope": "entity.name.function.c",
+      "settings": {
+        "foreground": "#e9a238ff"
+      }
+    },
+    {
       "scope": "entity.name.function.js",
       "settings": {
         "foreground": "#fec758"
@@ -674,6 +710,12 @@
       "scope": "entity.name.function.php",
       "settings": {
         "foreground": "#fec758ff"
+      }
+    },
+    {
+      "scope": "entity.name.function.preprocessor.c",
+      "settings": {
+        "foreground": "#e9a238ff"
       }
     },
     {
@@ -998,6 +1040,12 @@
       }
     },
     {
+      "scope": "keyword.control.c",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.control.conditional.batchfile",
       "settings": {
         "foreground": "#984ece"
@@ -1058,6 +1106,12 @@
       }
     },
     {
+      "scope": "keyword.control.directive.include.c",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.control.else.php",
       "settings": {
         "foreground": "#984ece"
@@ -1113,6 +1167,24 @@
     },
     {
       "scope": "keyword.control.default.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.directive.conditional.c",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.directive.define.c",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.directive.undef.c",
       "settings": {
         "foreground": "#984ece"
       }
@@ -1282,6 +1354,12 @@
       }
     },
     {
+      "scope": "keyword.operator.assignment.c",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.assignment.js",
       "settings": {
         "foreground": "#984ece"
@@ -1354,6 +1432,12 @@
       }
     },
     {
+      "scope": "keyword.operator.c",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.class.php",
       "settings": {
         "foreground": "#984ece"
@@ -1361,6 +1445,12 @@
     },
     {
       "scope": "keyword.operator.comparison.batchfile",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.comparison.c",
       "settings": {
         "foreground": "#984ece"
       }
@@ -1492,6 +1582,12 @@
       }
     },
     {
+      "scope": "keyword.operator.logical.c",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.logical.js",
       "settings": {
         "foreground": "#984ece"
@@ -1585,6 +1681,12 @@
       "scope": "keyword.operator.scss",
       "settings": {
         "foreground": "#f44747ff"
+      }
+    },
+    {
+      "scope": "keyword.operator.sizeof.c",
+      "settings": {
+        "foreground": "#984ece"
       }
     },
     {
@@ -1904,6 +2006,18 @@
       }
     },
     {
+      "scope": "storage.modifier.c",
+      "settings": {
+        "foreground": "#f59295"
+      }
+    },
+    {
+      "scope": "storage.modifier.cpp",
+      "settings": {
+        "foreground": "#f59295"
+      }
+    },
+    {
       "scope": "storage.modifier.js",
       "settings": {
         "foreground": "#f59295"
@@ -1929,6 +2043,12 @@
     },
     {
       "scope": "storage.modifier.reference.php",
+      "settings": {
+        "foreground": "#ff6262ff"
+      }
+    },
+    {
+      "scope": "storage.type.c",
       "settings": {
         "foreground": "#ff6262ff"
       }
@@ -2036,6 +2156,12 @@
       }
     },
     {
+      "scope": "string.quoted.double.cpp",
+      "settings": {
+        "foreground": "#cd8d8dff"
+      }
+    },
+    {
       "scope": "string.quoted.double.css",
       "settings": {
         "foreground": "#cd8d8dff"
@@ -2067,6 +2193,12 @@
       }
     },
     {
+      "scope": "string.quoted.double.include.c",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
       "scope": "string.quoted.double.php",
       "settings": {
         "foreground": "#cd8d8dff"
@@ -2088,6 +2220,12 @@
       "scope": "string.quoted.double.yaml",
       "settings": {
         "foreground": "#fec758ff"
+      }
+    },
+    {
+      "scope": "string.quoted.single.c",
+      "settings": {
+        "foreground": "#cd8d8dff"
       }
     },
     {
@@ -2365,6 +2503,12 @@
       "scope": "support.function.errorfunc.php",
       "settings": {
         "foreground": "#fec758ff"
+      }
+    },
+    {
+      "scope": "support.function.C99.c",
+      "settings": {
+        "foreground": "#f8910a"
       }
     },
     {
@@ -2807,6 +2951,13 @@
       }
     },
     {
+      "scope": "variable.language.this.cpp",
+      "settings": {
+        "foreground": "#cc9c00ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": "variable.language.this.js",
       "settings": {
         "foreground": "#cc9c00ff"
@@ -2923,6 +3074,13 @@
     },
     {
       "scope": "variable.other.makefile",
+      "settings": {
+        "foreground": "#cc9c00ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "variable.other.member.c",
       "settings": {
         "foreground": "#cc9c00ff",
         "fontStyle": "italic"
