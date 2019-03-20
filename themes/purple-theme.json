@@ -341,6 +341,12 @@
       }
     },
     {
+      "scope": "comment.line.rem.batchfile",
+      "settings": {
+        "foreground": "#746e6e"
+      }
+    },
+    {
       "scope": "comment.line.scss",
       "settings": {
         "foreground": "#746e6e"
@@ -432,6 +438,12 @@
     },
     {
       "scope": "constant.character.escape.backslash.regexp",
+      "settings": {
+        "foreground": "#ffe862ff"
+      }
+    },
+    {
+      "scope": "constant.character.escape.batchfile",
       "settings": {
         "foreground": "#ffe862ff"
       }
@@ -908,6 +920,12 @@
       }
     },
     {
+      "scope": "keyword.command.rem.batchfile",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.control.as.ts",
       "settings": {
         "foreground": "#984ece"
@@ -1178,7 +1196,19 @@
       }
     },
     {
+      "scope": "keyword.control.repeat.batchfile",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.control.return.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.statement.batchfile",
       "settings": {
         "foreground": "#984ece"
       }
@@ -1855,13 +1885,6 @@
         "foreground": "#984ece"
       }
     },
-    // {
-    //   "scope": "punctuation.definition.variable.begin.batchfile",
-    //   "settings": {
-    //     "foreground": "#cc9c00ff",
-    //     "fontStyle": "italic"
-    //   }
-    // },
     {
       "scope": "punctuation.definition.variable.makefile",
       "settings": {
@@ -2997,6 +3020,13 @@
       "scope": "variable.other.readwrite.ts",
       "settings": {
         "foreground": "#cc9c00",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "variable.parameter.batchfile",
+      "settings": {
+        "foreground": "#cc9c00ff",
         "fontStyle": "italic"
       }
     },
