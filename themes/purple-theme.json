@@ -449,6 +449,12 @@
       }
     },
     {
+      "scope": "constant.language.batchfile",
+      "settings": {
+        "foreground": "#997429ff"
+      }
+    },
+    {
       "scope": "constant.language.boolean.false.js",
       "settings": {
         "foreground": "#896aae"
@@ -534,6 +540,12 @@
     },
     {
       "scope": "constant.language.undefined.ts",
+      "settings": {
+        "foreground": "#896aae"
+      }
+    },
+    {
+      "scope": "constant.numeric.batchfile",
       "settings": {
         "foreground": "#896aae"
       }
@@ -890,6 +902,12 @@
       }
     },
     {
+      "scope": "keyword.command.batchfile",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.control.as.ts",
       "settings": {
         "foreground": "#984ece"
@@ -957,6 +975,12 @@
     },
     {
       "scope": "keyword.control.at-rule.media.scss",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.control.conditional.batchfile",
       "settings": {
         "foreground": "#984ece"
       }
@@ -1222,6 +1246,12 @@
       }
     },
     {
+      "scope": "keyword.operator.assignment.batchfile",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.assignment.js",
       "settings": {
         "foreground": "#984ece"
@@ -1264,6 +1294,12 @@
       }
     },
     {
+      "scope": "keyword.operator.at.batchfile",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.bitwise.js",
       "settings": {
         "foreground": "#984ece"
@@ -1294,6 +1330,12 @@
       }
     },
     {
+      "scope": "keyword.operator.comparison.batchfile",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.comparison.js",
       "settings": {
         "foreground": "#984ece"
@@ -1307,6 +1349,12 @@
     },
     {
       "scope": "keyword.operator.comparison.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.conditional.batchfile",
       "settings": {
         "foreground": "#984ece"
       }
@@ -1408,6 +1456,12 @@
       }
     },
     {
+      "scope": "keyword.operator.logical.batchfile",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.logical.js",
       "settings": {
         "foreground": "#984ece"
@@ -1456,7 +1510,19 @@
       }
     },
     {
+      "scope": "keyword.operator.pipe.batchfile",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.quantifier.regexp",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.redirection.batchfile",
       "settings": {
         "foreground": "#984ece"
       }
@@ -1601,6 +1667,12 @@
     },
     {
       "scope": "keyword.other.phpdoc.php",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.other.special-method.batchfile",
       "settings": {
         "foreground": "#984ece"
       }
@@ -1783,6 +1855,13 @@
         "foreground": "#984ece"
       }
     },
+    // {
+    //   "scope": "punctuation.definition.variable.begin.batchfile",
+    //   "settings": {
+    //     "foreground": "#cc9c00ff",
+    //     "fontStyle": "italic"
+    //   }
+    // },
     {
       "scope": "punctuation.definition.variable.makefile",
       "settings": {
@@ -1925,6 +2004,12 @@
       "scope": "string.other.link.title.markdown",
       "settings": {
         "foreground": "#fb9a4bff"
+      }
+    },
+    {
+      "scope": "string.quoted.double.batchfile",
+      "settings": {
+        "foreground": "#cd8d8dff"
       }
     },
     {
@@ -2877,6 +2962,13 @@
       "scope": "variable.other.readwrite.alias.js",
       "settings": {
         "foreground": "#cc9c00",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "variable.other.readwrite.batchfile",
+      "settings": {
+        "foreground": "#cc9c00ff",
         "fontStyle": "italic"
       }
     },
