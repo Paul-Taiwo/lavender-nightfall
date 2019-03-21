@@ -467,6 +467,12 @@
       }
     },
     {
+      "scope": "constant.character.escape.cpp",
+      "settings": {
+        "foreground": "#ffe862ff"
+      }
+    },
+    {
       "scope": "constant.character.escape.js",
       "settings": {
         "foreground": "#fec758ff"
@@ -690,6 +696,12 @@
     },
     {
       "scope": "entity.name.function.c",
+      "settings": {
+        "foreground": "#e9a238ff"
+      }
+    },
+    {
+      "scope": "entity.name.function.cpp",
       "settings": {
         "foreground": "#e9a238ff"
       }
@@ -1360,6 +1372,18 @@
       }
     },
     {
+      "scope": "keyword.operator.assignment.compound.bitwise.c",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.assignment.compound.c",
+      "settings": {
+        "foreground": "#984ece"
+      }
+    },
+    {
       "scope": "keyword.operator.assignment.js",
       "settings": {
         "foreground": "#984ece"
@@ -1549,6 +1573,12 @@
       "scope": "keyword.operator.expression.of.ts",
       "settings": {
         "foreground": "#984ece"
+      }
+    },
+    {
+      "scope": "keyword.operator.increment.c",
+      "settings": {
+        "foreground": "#f44747ff"
       }
     },
     {
@@ -2223,6 +2253,12 @@
       }
     },
     {
+      "scope": "string.quoted.other.lt-gt.include.c",
+      "settings": {
+        "foreground": "#fec758ff"
+      }
+    },
+    {
       "scope": "string.quoted.single.c",
       "settings": {
         "foreground": "#cd8d8dff"
@@ -2713,6 +2749,12 @@
       "scope": "support.type.primitive.ts",
       "settings": {
         "foreground": "#4ec9b0ff"
+      }
+    },
+    {
+      "scope": "support.type.sys-types.c",
+      "settings": {
+        "foreground": "#5fc05fff"
       }
     },
     {
