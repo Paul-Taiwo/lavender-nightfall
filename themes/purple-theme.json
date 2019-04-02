@@ -249,8 +249,7 @@
     "titleBar.inactiveForeground": "#cccccc99",
     "widget.shadow": "#000000"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Comment",
       "scope": [
         "comment",
@@ -313,48 +312,6 @@
         // "foreground": "#fec758ff"
       }
     },
-    // {
-    //   "scope": "entity.name.function.cpp",
-    //   "settings": {
-    //     "foreground": "#e9a238ff"
-    //   }
-    // },
-    // {
-    //   "scope": "entity.name.function.js",
-    //   "settings": {
-    //     "foreground": "#fec758"
-    //   }
-    // },
-    // {
-    //   "scope": "entity.name.function.ts",
-    //   "settings": {
-    //     "foreground": "#fec758"
-    //   }
-    // },
-    // {
-    //   "scope": "entity.name.function.php",
-    //   "settings": {
-    //     "foreground": "#fec758ff"
-    //   }
-    // },
-    // {
-    //   "scope": "entity.name.function.preprocessor.c",
-    //   "settings": {
-    //     "foreground": "#e9a238ff"
-    //   }
-    // },
-    {
-      "scope": "entity.name.function.scss",
-      "settings": {
-        "foreground": "#9df39fff"
-      }
-    },
-    // {
-    //   "scope": "entity.name.function.target.makefile",
-    //   "settings": {
-    //     "foreground": "#fec758"
-    //   }
-    // },
     {
       "scope": "entity.name.goto-label.php",
       "settings": {
@@ -367,78 +324,51 @@
     //     "foreground": "#fec758ff"
     //   }
     // },
-     {
-      "scope": "entity.name.tag.custom.scss",
+    {
+      "name": "Entity Name Tag Css & Custom",
+      "scope": [
+        "entity.name.tag.css",
+        "entity.name.tag.custom"
+      ],
       "settings": {
         "foreground": "#f59295ff"
       }
     },
     {
-      "scope": "entity.name.tag.css",
+      "name": "Entity Name Tag",
+      "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#f59295"
+        "foreground": "#9370db"
+        // "foreground": "#984ece"
       }
     },
     {
-      "scope": "entity.name.tag.html",
+      "name": "Entity Name Tag Reference in stylesheets",
+      "scope": "entity.name.tag.reference",
       "settings": {
-        "foreground": "#984ece"
+        "foreground": "#9370db"
       }
     },
     {
-      "scope": "entity.name.tag.js",
-      "settings": {
-        "foreground": "#984ece"
-      }
-    },
-    {
-      "scope": "entity.name.tag.ts",
-      "settings": {
-        "foreground": "#984ece"
-      }
-    },
-    {
-      "scope": "entity.name.tag.directive.ts",
-      "settings": {
-        "foreground": "#984ece"
-      }
-    },
-    {
-      "scope": "entity.name.tag.localname.xml",
-      "settings": {
-        "foreground": "#984ece"
-      }
-    },
-    {
-      "scope": "entity.name.tag.reference.scss",
-      "settings": {
-        "foreground": "#fec758ff"
-      }
-    },
-    {
-      "scope": "entity.name.tag.wildcard.css",
-      "settings": {
-        "foreground": "#f59295"
-      }
-    },
-    {
-      "scope": "entity.name.tag.wildcard.scss",
+      "name": "Entity Name Tag Wildcard",
+      "scope": "entity.name.tag.wildcard",
       "settings": {
         "foreground": "#f59295ff"
       }
     },
-    {
-      "scope": "entity.name.tag.xml",
-      "settings": {
-        "foreground": "#984ece"
-      }
-    },
-    {
-      "scope": "entity.name.tag.yaml",
-      "settings": {
-        "foreground": "#e9a238ff"
-      }
-    },
+
+    // {
+    //   "scope": "entity.name.tag.xml",
+    //   "settings": {
+    //     "foreground": "#984ece"
+    //   }
+    // },
+    // {
+    //   "scope": "entity.name.tag.yaml",
+    //   "settings": {
+    //     "foreground": "#e9a238ff"
+    //   }
+    // },
     {
       "scope": "entity.name.type.js",
       "settings": {
@@ -1996,7 +1926,7 @@
       "scope": "variable.scss",
       "settings": {
         "foreground": "#e9a238ff",
-        "fontStyle":"italic",
+        "fontStyle": "italic",
       }
     },
   ]
