@@ -356,19 +356,6 @@
         "foreground": "#f59295ff"
       }
     },
-
-    // {
-    //   "scope": "entity.name.tag.xml",
-    //   "settings": {
-    //     "foreground": "#984ece"
-    //   }
-    // },
-    // {
-    //   "scope": "entity.name.tag.yaml",
-    //   "settings": {
-    //     "foreground": "#e9a238ff"
-    //   }
-    // },
     {
       "scope": "entity.name.type.js",
       "settings": {
