@@ -280,12 +280,20 @@
       "name": "Constant Language",
       "scope": "constant.language",
       "settings": {
-        "foreground": "#bf55ec"
+        "foreground": "#886288"
+        // "foreground": "#9b59b6"
       }
     },
     {
       "name": "Constant Numeric",
       "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#9b59b6"
+      }
+    },
+    {
+      "name": "Constant Numeric Css",
+      "scope": "constant.numeric.css",
       "settings": {
         "foreground": "#bf55ec"
       }
@@ -294,69 +302,72 @@
       "name": "Constant Other",
       "scope": "constant.other",
       "settings": {
-        "foreground": "#bf55ec"
+        "foreground": "#9b59b6"
       }
     },
     {
-      "scope": "entity.name.function.c",
+      "name": "Entity Name Function",
+      "scope": "entity.name.function",
       "settings": {
-        "foreground": "#e9a238ff"
+        "foreground": "#f2a127"
+        // "foreground": "#fec758ff"
       }
     },
-    {
-      "scope": "entity.name.function.cpp",
-      "settings": {
-        "foreground": "#e9a238ff"
-      }
-    },
-    {
-      "scope": "entity.name.function.js",
-      "settings": {
-        "foreground": "#fec758"
-      }
-    },
-    {
-      "scope": "entity.name.function.ts",
-      "settings": {
-        "foreground": "#fec758"
-      }
-    },
-    {
-      "scope": "entity.name.function.php",
-      "settings": {
-        "foreground": "#fec758ff"
-      }
-    },
-    {
-      "scope": "entity.name.function.preprocessor.c",
-      "settings": {
-        "foreground": "#e9a238ff"
-      }
-    },
+    // {
+    //   "scope": "entity.name.function.cpp",
+    //   "settings": {
+    //     "foreground": "#e9a238ff"
+    //   }
+    // },
+    // {
+    //   "scope": "entity.name.function.js",
+    //   "settings": {
+    //     "foreground": "#fec758"
+    //   }
+    // },
+    // {
+    //   "scope": "entity.name.function.ts",
+    //   "settings": {
+    //     "foreground": "#fec758"
+    //   }
+    // },
+    // {
+    //   "scope": "entity.name.function.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff"
+    //   }
+    // },
+    // {
+    //   "scope": "entity.name.function.preprocessor.c",
+    //   "settings": {
+    //     "foreground": "#e9a238ff"
+    //   }
+    // },
     {
       "scope": "entity.name.function.scss",
       "settings": {
         "foreground": "#9df39fff"
       }
     },
-    {
-      "scope": "entity.name.function.target.makefile",
-      "settings": {
-        "foreground": "#fec758"
-      }
-    },
+    // {
+    //   "scope": "entity.name.function.target.makefile",
+    //   "settings": {
+    //     "foreground": "#fec758"
+    //   }
+    // },
     {
       "scope": "entity.name.goto-label.php",
       "settings": {
         "foreground": "#fec758ff"
       }
     },
-    {
-      "scope": "entity.name.section.markdown",
-      "settings": {
-        "foreground": "#fec758ff"
-      }
-    }, {
+    // {
+    //   "scope": "entity.name.section.markdown",
+    //   "settings": {
+    //     "foreground": "#fec758ff"
+    //   }
+    // },
+     {
       "scope": "entity.name.tag.custom.scss",
       "settings": {
         "foreground": "#f59295ff"
@@ -582,22 +593,20 @@
         "keyword.command"
       ],
       "settings": {
-        "foreground": "#984ece"
+        "foreground": "#bf6ee0"
       }
     },
     {
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-        // "foreground": "#984ece"
-        "foreground": "#f44747ff"
+        "foreground": "#e73c70"
       }
     },
     {
       "scope": "keyword.other",
       "settings": {
-        // "foreground": "#984ece"
-        "foreground": "#f44747"
+        "foreground": "#e73c70"
       }
     },
     {
