@@ -343,8 +343,16 @@
       }
     },
     {
-      "name": "Entity Name Tag",
-      "scope": "entity.name.tag",
+      "name": "Entity Name Tags",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.other.html",
+        "meta.tag.other.js",
+        "meta.tag.other.tsx",
+        "meta.tag.js",
+        "meta.tag.tsx",
+        "meta.tag.html"
+      ],
       "settings": {
         "foreground": "#9370db"
       }
@@ -454,19 +462,21 @@
     //     "foreground": "#997429ff"
     //   }
     // },
-    // {
-    //   "scope": "entity.other.inherited-class.ts",
-    //   "settings": {
-    //     "foreground": "#997429ff",
-    //     "fontStyle": "underline"
-    //   }
-    // },
-    // {
-    //   "scope": "entity.other.keyframe-offset.percentage.css",
-    //   "settings": {
-    //     "foreground": "#fb9a4bff"
-    //   }
-    // },
+    {
+      "name": "Inherited Class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#9f6b3f",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Keyframe Offset Percentage",
+      "scope": "entity.other.keyframe-offset.percentage",
+      "settings": {
+        "foreground": "#e9a238ff"
+      }
+    },
     {
       "name": "Keywords",
       "scope": [
@@ -485,6 +495,7 @@
       }
     },
     {
+      "name": "Other keywords",
       "scope": "keyword.other",
       "settings": {
         "foreground": "#e73c70"
@@ -554,6 +565,13 @@
     //     "foreground": "#f44747"
     //   }
     // },
+    {
+      "name": "Template Expression",
+      "scope": "meta.template.expression",
+      "settings": {
+        "foreground": "#ff6262ff"
+      }
+    },
     {
       "scope": "punctuation.definition.group.regexp",
       "settings": {
@@ -678,7 +696,7 @@
     //   }
     // },
     {
-      "name": "Storage Type",
+      "name": "Storage Type & Keyword Declaration",
       "scope": [
         "storage.type",
         "keyword.declaration"
@@ -790,28 +808,23 @@
         "foreground": "#ffb454ff"
       }
     },
+    // {
+    //   "scope": "string.regexp.double-quoted.php",
+    //   "settings": {
+    //     "foreground": "#cd8d8dff"
+    //   }
+    // },
+    // {
+    //   "scope": "string.regexp.single-quoted.php",
+    //   "settings": {
+    //     "foreground": "#e9a238ff"
+    //   }
+    // },
     {
-      "scope": "string.regexp.double-quoted.php",
+      "name": "Template Strings",
+      "scope": "string.template",
       "settings": {
         "foreground": "#cd8d8dff"
-      }
-    },
-    {
-      "scope": "string.regexp.single-quoted.php",
-      "settings": {
-        "foreground": "#e9a238ff"
-      }
-    },
-    {
-      "scope": "string.template.js",
-      "settings": {
-        "foreground": "#2671b2ff"
-      }
-    },
-    {
-      "scope": "string.template.ts",
-      "settings": {
-        "foreground": "#2671b2ff"
       }
     },
     // {
