@@ -953,29 +953,31 @@
     //   }
     // },
     {
-      "scope": "support.class.js",
+      "name": "Support Class",
+      "scope": "support.class",
       "settings": {
         "foreground": "#fec758ff"
       }
     },
+    // {
+    //   "scope": "support.class.ts",
+    //   "settings": {
+    //     "foreground": "#fec758ff"
+    //   }
+    // },
     {
-      "scope": "support.class.ts",
-      "settings": {
-        "foreground": "#fec758ff"
-      }
-    },
-    {
-      "scope": "support.class.dom.js",
-      "settings": {
-        "foreground": "#5fc05fff"
-      }
-    },
-    {
-      "scope": "support.class.dom.ts",
+      "name": "Support Class Dom",
+      "scope": "support.class.dom",
       "settings": {
         "foreground": "#5fc05fff"
       }
     },
+    // {
+    //   "scope": "support.class.dom.ts",
+    //   "settings": {
+    //     "foreground": "#5fc05fff"
+    //   }
+    // },
     {
       "scope": "support.constant.color.w3c-extended-color-name.css",
       "settings": {
