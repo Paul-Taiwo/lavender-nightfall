@@ -898,47 +898,48 @@
       }
     },
     {
-      "scope": "support.constant.media.css",
+      "scope": "support.constant",
       "settings": {
         "foreground": "#f59295ff"
       }
     },
+    // {
+    //   "scope": "support.constant.vendored.property-value.css",
+    //   "settings": {
+    //     "foreground": "#cd8d8dff"
+    //   }
+    // },
     {
-      "scope": "support.constant.vendored.property-value.css",
-      "settings": {
-        "foreground": "#cd8d8dff"
-      }
-    },
-    {
-      "scope": "support.class.builtin.js",
-      "settings": {
-        "foreground": "#5fc05f"
-      }
-    },
-    {
-      "scope": "support.class.builtin.ts",
+      "name": "Support Class",
+      "scope": "support.class",
       "settings": {
         "foreground": "#5fc05f"
       }
     },
-    {
-      "scope": "support.class.builtin.php",
-      "settings": {
-        "foreground": "#9df39fff"
-      }
-    },
-    {
-      "scope": "support.class.console.js",
-      "settings": {
-        "foreground": "#5fc05f"
-      }
-    },
-    {
-      "scope": "support.class.console.ts",
-      "settings": {
-        "foreground": "#5fc05f"
-      }
-    },
+    // {
+    //   "scope": "support.class.builtin.ts",
+    //   "settings": {
+    //     "foreground": "#5fc05f"
+    //   }
+    // },
+    // {
+    //   "scope": "support.class.builtin.php",
+    //   "settings": {
+    //     "foreground": "#9df39fff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.class.console.js",
+    //   "settings": {
+    //     "foreground": "#5fc05f"
+    //   }
+    // },
+    // {
+    //   "scope": "support.class.console.ts",
+    //   "settings": {
+    //     "foreground": "#5fc05f"
+    //   }
+    // },
     {
       "scope": "support.class.error.js",
       "settings": {
@@ -963,24 +964,24 @@
         "foreground": "#9df39fff"
       }
     },
-    {
-      "scope": "support.class.php",
-      "settings": {
-        "foreground": "#9df39fff"
-      }
-    },
-    {
-      "scope": "support.class.promise.js",
-      "settings": {
-        "foreground": "#9df39fff"
-      }
-    },
-    {
-      "scope": "support.class.promise.ts",
-      "settings": {
-        "foreground": "#9df39fff"
-      }
-    },
+    // {
+    //   "scope": "support.class.php",
+    //   "settings": {
+    //     "foreground": "#9df39fff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.class.promise.js",
+    //   "settings": {
+    //     "foreground": "#9df39fff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.class.promise.ts",
+    //   "settings": {
+    //     "foreground": "#9df39fff"
+    //   }
+    // },
     {
       "scope": "support.constant.ts",
       "settings": {
@@ -1013,185 +1014,185 @@
       }
     },
     {
-      "scope": "support.function.errorfunc.php",
+      "scope": "support.function",
       "settings": {
         "foreground": "#fec758ff"
       }
     },
-    {
-      "scope": "support.function.C99.c",
-      "settings": {
-        "foreground": "#f8910a"
-      }
-    },
-    {
-      "scope": "support.function.classobj.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.construct.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.construct.output.php",
-      "settings": {
-        "foreground": "#ffb454ff"
-      }
-    },
-    {
-      "scope": "support.function.datetime.php",
-      "settings": {
-        "foreground": "#ffb454ff",
-      }
-    },
-    {
-      "scope": "support.function.file.php",
-      "settings": {
-        "foreground": "#ffb454ff",
-      }
-    },
-    {
-      "scope": "support.function.funchand.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.hash.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.image.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.info.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.json.js",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.json.ts",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.json.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.magic.php",
-      "settings": {
-        "foreground": "#ff6262ff",
-      }
-    },
-    {
-      "scope": "support.function.math.js",
-      "settings": {
-        "foreground": "#ffb454ff"
-      }
-    },
-    {
-      "scope": "support.function.math.ts",
-      "settings": {
-        "foreground": "#ffb454ff"
-      }
-    },
-    {
-      "scope": "support.function.math.php",
-      "settings": {
-        "foreground": "#fec758ff"
-      }
-    },
-    {
-      "scope": "support.function.misc.css",
-      "settings": {
-        "foreground": "#fec758ff"
-      }
-    },
-    {
-      "scope": "support.function.misc.scss",
-      "settings": {
-        "foreground": "#fec758ff"
-      }
-    },
-    {
-      "scope": "support.function.network.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.output.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.php_pcre.php",
-      "settings": {
-        "foreground": "#ffb454ff"
-      }
-    },
-    {
-      "scope": "support.function.string.php",
-      "settings": {
-        "foreground": "#ffb454ff"
-      }
-    },
-    {
-      "scope": "support.function.target.PHONY.makefile",
-      "settings": {
-        "foreground": "#f59295ff"
-      }
-    },
-    {
-      "scope": "support.function.url.css",
-      "settings": {
-        "foreground": "#fec758ff"
-      }
-    },
-    {
-      "scope": "support.function.url.php",
-      "settings": {
-        "foreground": "#fec758ff"
-      }
-    },
-    {
-      "scope": "support.function.var.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.xml.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
-    {
-      "scope": "support.function.zlib.php",
-      "settings": {
-        "foreground": "#fec758ff",
-      }
-    },
+    // {
+    //   "scope": "support.function.C99.c",
+    //   "settings": {
+    //     "foreground": "#f8910a"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.classobj.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.construct.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.construct.output.php",
+    //   "settings": {
+    //     "foreground": "#ffb454ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.datetime.php",
+    //   "settings": {
+    //     "foreground": "#ffb454ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.file.php",
+    //   "settings": {
+    //     "foreground": "#ffb454ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.funchand.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.hash.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.image.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.info.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.json.js",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.json.ts",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.json.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.magic.php",
+    //   "settings": {
+    //     "foreground": "#ff6262ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.math.js",
+    //   "settings": {
+    //     "foreground": "#ffb454ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.math.ts",
+    //   "settings": {
+    //     "foreground": "#ffb454ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.math.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.misc.css",
+    //   "settings": {
+    //     "foreground": "#fec758ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.misc.scss",
+    //   "settings": {
+    //     "foreground": "#fec758ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.network.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.output.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.php_pcre.php",
+    //   "settings": {
+    //     "foreground": "#ffb454ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.string.php",
+    //   "settings": {
+    //     "foreground": "#ffb454ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.target.PHONY.makefile",
+    //   "settings": {
+    //     "foreground": "#f59295ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.url.css",
+    //   "settings": {
+    //     "foreground": "#fec758ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.url.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff"
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.var.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.xml.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
+    // {
+    //   "scope": "support.function.zlib.php",
+    //   "settings": {
+    //     "foreground": "#fec758ff",
+    //   }
+    // },
     {
       "scope": "support.other.namespace.php",
       "settings": {
