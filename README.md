@@ -1,7 +1,7 @@
 <div align="center">
 
 # Sweet Purple Theme
-* Under Construction
+### Under Construction
 
 An elegant and juicy purple theme for Visual Studio Code.
 
