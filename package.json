@@ -1,8 +1,10 @@
 {
-  "name": "sweet-purple-theme",
-  "publisher": "Paul Taiwo Adedokun",
+  "name": "lavender-nightfall",
+  "displayName": "Lavender Nightfall",
+  "description": "Introducing Lavender Nightfall: a captivating VS Code theme that combines soothing shades of purple with a touch of mystique. Experience the calming essence of lavender hues, enjoy optimal readability, and elevate your coding environment with elegance and modernity.",
+  "version": "0.0.1",
   "engines": {
-    "vscode": "^1.22.0"
+    "vscode": "^1.79.0"
   },
   "categories": [
     "Themes"
@@ -10,17 +12,10 @@
   "contributes": {
     "themes": [
       {
-        "label": "purple-theme",
+        "label": "Lavender Nightfall",
         "uiTheme": "vs-dark",
-        "path": "./themes/purple-theme.json"
+        "path": "./themes/Lavender Nightfall-color-theme.json"
       }
     ]
-  },
-  "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Paul Taiwo Adedokun",
-  "license": "MIT",
-  "description": ""
+  }
 }
