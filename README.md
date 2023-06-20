@@ -8,7 +8,7 @@ Introducing Lavender Nightfall: a captivating VS Code theme that combines soothi
 
 [![made in nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=for-the-badge)](https://github.com/acekyd/made-in-nigeria)
 
-![Theme Preview](https://i.imgur.com/yaYT4Ho.png)
+![Theme Preview](https://i.imgur.com/snW9Xim.png)
 </div>
 
 ## Features
